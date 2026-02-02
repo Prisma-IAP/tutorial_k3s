@@ -1,0 +1,1 @@
+{"config":{"lang":["pt"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"],"fields":{"title":{"boost":1000.0},"text":{"boost":1.0},"tags":{"boost":1000000.0}}},"docs":[{"location":"","title":"Tutorial K3s","text":"<p>Esta p\u00e1gina est\u00e1 em constru\u00e7\u00e3o!</p> <p>Fique a vontade para contribuir com este reposit\u00f3rio!</p>"}]}
