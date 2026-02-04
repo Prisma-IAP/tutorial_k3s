@@ -9,24 +9,28 @@
       
       
       
+        <link rel="prev" href="../configs/">
+      
+      
+        <link rel="next" href="../python_lang/">
       
       
         
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>Tutorial K3s</title>
+        <title>OpenMPI - Tutorial K3s</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -45,7 +49,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#openmpi" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -81,7 +90,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
-    <a href="/." title="Tutorial K3s" class="md-header__button md-logo" aria-label="Tutorial K3s" data-md-component="logo">
+    <a href="../.." title="Tutorial K3s" class="md-header__button md-logo" aria-label="Tutorial K3s" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -101,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              OpenMPI
             
           </span>
         </div>
@@ -205,7 +214,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Tutorial K3s" class="md-nav__button md-logo" aria-label="Tutorial K3s" data-md-component="logo">
+    <a href="../.." title="Tutorial K3s" class="md-nav__button md-logo" aria-label="Tutorial K3s" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -223,7 +232,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -297,7 +306,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/orangepi/" class="md-nav__link">
+      <a href="../../basics/orangepi/" class="md-nav__link">
         
   
   
@@ -325,7 +334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/basics/raspberry/" class="md-nav__link">
+      <a href="../../basics/raspberry/" class="md-nav__link">
         
   
   
@@ -357,18 +366,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -389,7 +400,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -407,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hpc/configs/" class="md-nav__link">
+      <a href="../configs/" class="md-nav__link">
         
   
   
@@ -432,18 +443,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
         
           
           <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
@@ -464,7 +477,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -479,10 +492,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/hpc/open_mpi/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OpenMPI
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -498,6 +538,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#passo-01-instalacao-do-openmpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 01: Instalação do OpenMPI
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -510,7 +581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hpc/python_lang/" class="md-nav__link">
+      <a href="../python_lang/" class="md-nav__link">
         
   
   
@@ -538,7 +609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hpc/r_lang/" class="md-nav__link">
+      <a href="../r_lang/" class="md-nav__link">
         
   
   
@@ -574,7 +645,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hpc/tests/" class="md-nav__link">
+      <a href="../tests/" class="md-nav__link">
         
   
   
@@ -649,7 +720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/hpc/slurm/" class="md-nav__link">
+      <a href="../slurm/" class="md-nav__link">
         
   
   
@@ -739,7 +810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lbc/basic_k3s/" class="md-nav__link">
+      <a href="../../lbc/basic_k3s/" class="md-nav__link">
         
   
   
@@ -767,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lbc/commands/" class="md-nav__link">
+      <a href="../../lbc/commands/" class="md-nav__link">
         
   
   
@@ -889,7 +960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lbc/files/pandaweb/" class="md-nav__link">
+      <a href="../../lbc/files/pandaweb/" class="md-nav__link">
         
   
   
@@ -917,7 +988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lbc/files/rancherdemo/" class="md-nav__link">
+      <a href="../../lbc/files/rancherdemo/" class="md-nav__link">
         
   
   
@@ -953,7 +1024,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lbc/manifests/" class="md-nav__link">
+      <a href="../../lbc/manifests/" class="md-nav__link">
         
   
   
@@ -989,7 +1060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lbc/traefik/" class="md-nav__link">
+      <a href="../../lbc/traefik/" class="md-nav__link">
         
   
   
@@ -1024,7 +1095,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/references/" class="md-nav__link">
+      <a href="../../references/" class="md-nav__link">
         
   
   
@@ -1061,6 +1132,27 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#passo-01-instalacao-do-openmpi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Passo 01: Instalação do OpenMPI
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1073,8 +1165,84 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="openmpi">OpenMPI</h1>
+<h2 id="passo-01-instalacao-do-openmpi">Passo 01: Instalação do OpenMPI</h2>
+<ul>
+<li>
+<p>Acesse o <em>node01</em> e realize a instalação do <strong><em>OpenMPI</em></strong> e suas dependências em cada <em>node</em>. Para isso, utilize os seguintes comandos:
+<div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>su<span class="w"> </span>-
+srun<span class="w"> </span>--nodes<span class="o">=</span><span class="m">3</span><span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>openmpi-bin<span class="w"> </span>openmpi-common<span class="w"> </span>libopenmpi3<span class="w"> </span>libopenmpi-dev<span class="w"> </span>-y
+</code></pre></div></p>
+</li>
+<li>
+<p>A seguir, realize o primeiro teste criando o arquivo <em>/clusterfs/hello_mpi.c</em> com o seguinte conteúdo:
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;stdio.h&gt;</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;mpi.h&gt;</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="kt">char</span><span class="o">**</span><span class="w"> </span><span class="n">argv</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">node</span><span class="p">;</span>
+<span class="w">    </span><span class="n">MPI_Init</span><span class="p">(</span><span class="o">&amp;</span><span class="n">argc</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">argv</span><span class="p">);</span>
+<span class="w">    </span><span class="n">MPI_Comm_rank</span><span class="p">(</span><span class="n">MPI_COMM_WORLD</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">node</span><span class="p">);</span>
+<span class="w">    </span><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello World from Node %d!</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">node</span><span class="p">);</span>
+<span class="w">    </span><span class="n">MPI_Finalize</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div></p>
+</li>
+<li>
+<p>Em seguida é necessário compilar o código em C para que seja possível rodar em cada <em>node</em> a partir do arquivo <strong><em>a.out</em></strong>. Para isso, realize as seguintes etapas:
+<div class="highlight"><pre><span></span><code>login1$<span class="w"> </span>srun<span class="w"> </span>--pty<span class="w"> </span>bash
+node1$<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>/clusterfs
+node1$<span class="w"> </span>mpicc<span class="w"> </span>hello_mpi.c
+node1$<span class="w"> </span>ls
+a.out*<span class="w"> </span>hello_mpi.c
+node1$<span class="w"> </span><span class="nb">exit</span>
+</code></pre></div></p>
+</li>
+<li>
+<p>Crie um script com o nome <em>/clusterfs/sub_mpi.sh</em> para que seja possível rodar no cluster. Utilize o conteúdo a seguir:
+<div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<span class="nb">cd</span><span class="w"> </span><span class="nv">$SLURM_SUBMIT_DIR</span>
+<span class="c1"># Print the node that starts the process</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Master node: </span><span class="k">$(</span>hostname<span class="k">)</span><span class="s2">&quot;</span>
+<span class="c1"># Run our program using OpenMPI.</span>
+<span class="c1"># OpenMPI will automatically discover resources from SLURM.</span>
+mpirun<span class="w"> </span>--allow-run-as-root<span class="w"> </span>a.out
+</code></pre></div></p>
+</li>
+<li>
+<p>Por fim, execute o job seguindo os seguintes comandos:
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>/clusterfs
+sbatch<span class="w"> </span>--nodes<span class="o">=</span><span class="m">3</span><span class="w"> </span>--ntasks-per-node<span class="o">=</span><span class="m">2</span><span class="w"> </span>sub_mpi.sh
+</code></pre></div></p>
+</li>
+<li>
+<p>O resultado final deve ser parecido com o informado abaixo:
+<div class="highlight"><pre><span></span><code>Master node: node01
+Hello World from Node 0!
+Hello World from Node 1!
+Hello World from Node 2!
+Hello World from Node 3!
+Hello World from Node 4!
+Hello World from Node 5!
+</code></pre></div></p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1127,10 +1295,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": [], "search": "/assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
