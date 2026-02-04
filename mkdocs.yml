@@ -4,6 +4,24 @@ plugins:
 
 nav:
   - Início: index.md
+  - Configurações básicas:
+      - Orange Pi: basics/orangepi.md
+      - Raspberry Pi: basics/raspberry.md
+  - Cluster de alta performance:
+      - Configurações: hpc/configs.md
+      - Instalações:
+          - OpenMPI: hpc/open_mpi.md
+          - Python: hpc/python_lang.md
+          - R: hpc/r_lang.md
+      - Testes: hpc/tests.md
+      - SLURM:
+          - Comandos básicos: hpc/slurm.md
+  - Cluster com balanceamento de carga:
+      - Básico K3s: lbc/basic_k3s.md
+      - Comandos básicos: lbc/commands.md
+      - Manifestos de configuração: lbc/manifests.md
+      - Traefik [Extra]: lbc/traefik.md
+  - Referências: references.md
 
 markdown_extensions:
   - pymdownx.tasklist
@@ -24,11 +42,11 @@ theme:
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
-      accent: deep orange
+      primary: indigo
+      accent: pink
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: deep purple
-      accent: green
+      primary: teal
+      accent: amber
