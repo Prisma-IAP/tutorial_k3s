@@ -19,7 +19,11 @@ nav:
   - Cluster com balanceamento de carga:
       - Básico K3s: lbc/basic_k3s.md
       - Comandos básicos: lbc/commands.md
-      - Manifestos de configuração: lbc/manifests.md
+      - Manifestos:
+        - Arquivos:
+          - "Panda Web": lbc/files/pandaweb.md
+          - "Rancher Demo": lbc/files/rancherdemo.md
+        - Configuração: lbc/manifests.md
       - Traefik [Extra]: lbc/traefik.md
   - Referências: references.md
 
@@ -50,3 +54,7 @@ theme:
         name: Dark mode
       primary: teal
       accent: amber
+extra:
+  social:
+    - icon: material/github
+      link: https://github.com/Prisma-IAP
