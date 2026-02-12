@@ -6,7 +6,9 @@ nav:
   - Início: index.md
   - Configurações básicas:
       - Orange Pi: basics/orangepi.md
-      - Raspberry Pi: basics/raspberry.md
+      - Raspberry Pi:
+        - Raspberry Pi OS: basics/raspberry/raspberrypi_os.md
+        - Ubuntu Server [Extra]: basics/raspberry/ubuntu_server.md
   - Cluster de alta performance:
       - Configurações: hpc/configs.md
       - Instalações:
