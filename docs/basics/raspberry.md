@@ -38,9 +38,3 @@ arm_64bit=1
 
 ## Passo 03: Atualizar o hostname
 - No Raspberry é possível alterar através do *Raspberry Pi Imager* durante o processo de criação da imagem
-
----
-
-# [Extra] Configurações para Ubuntu Server
-
-## Em breve...
