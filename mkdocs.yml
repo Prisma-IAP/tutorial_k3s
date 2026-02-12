@@ -36,7 +36,7 @@ markdown_extensions:
   - pymdownx.superfences
 
 theme:
-  language: pt-br
+  language: pt
   name: material
   font:
     text: Roboto
