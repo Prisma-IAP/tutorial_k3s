@@ -1,4 +1,4 @@
-# Configurações básicas - Raspberry Pi
+# Configurações básicas - Raspberry Pi OS
 
 O conteúdo a seguir tem como objetivo demonstrar como realizar as configurações básicas de rede no **[Raspberry Pi](https://www.raspberrypi.com/)**.
 
